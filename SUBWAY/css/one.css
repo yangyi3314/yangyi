@@ -4,10 +4,12 @@
 *{list-style:none;outline:none;}
 .one
 {
-width:100%;
+width:95%;
 margin-top:10px;
+margin-left:2.5%;
 height:62px;
-background-color:#b3cce6;
+background-color:#d9edf7;
+border-color: #bce8f1;
 opacity:0.5;
 clear:both;
 }
@@ -27,10 +29,10 @@ clear:both;
 	float:right;
 	
 }
-.cd
+
+#cd
 {
-	width:60%;
-	margin-left:20%;
+	text-align:left;
 }
 #r img
 {
@@ -58,26 +60,26 @@ border-bottom:#007AC3 5px solid;
 {
 	margin-top:10px;
 }
+
 #two1
 {
-	background-image:url(../images/10.jpg);
+	background-color:#d9edf7;
 	margin-top:12px;
-	margin-left:30px;
+	margin-left:2.5%;
 	float:left;
 	border:1px solid #ccc;
-    background-color:#eee;
     height:600px;
     width:702px;
 }
 #two2
 {
 	margin-top:2px;
-	margin-right:30px;
+	margin-right:2.5%;
 	float:right;
 }
 #two1 #info
 {
-	border-left:#007AC3 5px solid;
+	border-left:#ff0000 5px solid;
 	float:left;
 }
 
@@ -107,18 +109,27 @@ text-align:center;
 #card
 {
 	margin-top:10px;
-	background-color:#eee;
-	height:320px;
+	background-color:#d9edf7;
+	height:300px;
 	width:400px;
 }
 #lose
 {
 	margin-top:10px;
 	background-color:#eee;
-	height:272px;
+	height:292px;
 	width:400px;
 }
-
+.dl1,.dl2
+{
+	width:400px;
+	margin-top:-20px;
+}
+.dl3
+{
+	margin-top:-30px;
+	text-align:center;
+}
 #card .a{
 	border-left:#007AC3 5px solid;
 	margin-left:0px;
@@ -126,9 +137,7 @@ text-align:center;
 #card .a1{
 	margin-left:68px;
 	text-align:center;
-	font-weight:bolder;
-	font-size:25px;
-	color:#0000ff;
+
 }
 #b
 {
@@ -137,7 +146,7 @@ text-align:center;
 #card1 img
 {
 	
-	margin-top:30px;
+	margin-top:10px;
 	cursor:pointer;
 }
 #card1
@@ -172,9 +181,10 @@ font-size:11px;
 }
 #three1
 {
-	margin-left:30px;
+	margin-left:2.5%;
 	width:600px;
 	margin-top:10px;
+	height:390px;
 	background-color:#eee;
 	float:left;
 
@@ -187,9 +197,18 @@ font-size:11px;
 	float:right;
 	width:500px;
 	position:relative;
-	margin-right:30px;
+	margin-right:2.5%;
 	background-color:#eee;
 	float:right;
+}
+#qw
+{
+	margin-botton:20px;
+}
+#lc
+{
+	margin-top:-10px;
+	width:100%;
 }
  .lc
 {
@@ -227,15 +246,11 @@ font-size:11px;
 {
 	color:#73b0ce;
 }
+
 #c1
 {
-	border-left:#ff8040 5px solid;
-}
-#c1,#c2
-{
-	color:#c57c96;
-	border-left:#80ffff 5px solid;
-	margin-top:10px;
+	position:relative;
+	top:-50px;
 	clear:both;
 	cursor:pointer;
 	width:100%;
@@ -265,11 +280,12 @@ font-size:11px;
 .m1,.m2,.m3,.m4
 {
 	height:300px;
-	background-size:400px 300px;
+	background-size:400px 270px;
 	background-repeat:no-repeat;
 	margin-top:10px;
 	margin-left:50px;
 }
+
 .left,.right
 {
 	float:left;
@@ -297,7 +313,8 @@ font-size:11px;
 	}
 #fl
 {
-	margin-top:40px;
+   width:100%;
+
 
 }
 #four
@@ -308,12 +325,11 @@ font-size:11px;
 {
 	display:inline-block;
 	width:430px;
-	border-top:5px solid #007AC3 ;
 	border-bottom:1px solid #d2d2d2;
 	border-left:1px solid #d2d2d2;
 	border-right:1px solid #d2d2d2;
 	margin-top:10px;
-	margin-left:-325px;
+	margin-left:-27%;
     height:550px;
 
 }
@@ -323,7 +339,7 @@ font-size:11px;
 	top:10px;
 	display:inline-block;
 	border:1px solid #d2d2d2;
-	margin-left:10px;
+	margin-left:1.6%;
 	width:690px;
 	height:550px;
 }
@@ -378,9 +394,32 @@ font-size:17px;
 div[class^="imf"]
 {
 	clear:both;
-	border:#007AC3 5px solid;
 	background-size:680px 400px;
 	background-repeat:no-repeat;
 	height:500px;
+	margin-top:-15px;
 }
-
+#sw
+{
+	width:100%;
+}
+#sk
+{
+	width:80%;
+	margin-top:-5px;
+	margin-right:-30px;
+	float:right
+}
+#sn
+{
+	margin-top:-220px;
+}
+.shou
+{
+	cursor:pointer;
+}
+#nn
+{
+	margin-top:5px;
+	clear:both;
+}

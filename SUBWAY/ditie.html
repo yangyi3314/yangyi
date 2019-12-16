@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <!--重要meta, 必须!-->
-    <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,shrink-to-fit=no" />
-    <title>SUBWAY</title>
+<meta charset="UTF-8">
+<!--重要meta, 必须!-->
+<meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,shrink-to-fit=no" />
+<title>SUBWAY</title>
 </head>
 <body >
-    <div id="mybox"></div>
-    <script src="https://webapi.amap.com/subway?v=1.0&key=123333&callback=cbk"></script>
-    <script type="text/javascript">
+<div id="mybox"></div>
+<script src="https://webapi.amap.com/subway?v=1.0&key=123333&callback=cbk"></script> 
+<script type="text/javascript">
     window.cbk = function() {
         var mySubway = subway("mybox", {
             adcode: 3601,

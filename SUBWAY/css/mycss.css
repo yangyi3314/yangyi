@@ -32,12 +32,12 @@ header {
 }
 
 #wxImg {
-    width: 140px;
-    height: 320px;
+    width: 10%;
+    height: 20%;
     margin: 0;
     padding: 0;
     position:fixed;
-    top:45%;
+    top:53%;
 	left:0;
 }
 
@@ -47,4 +47,56 @@ header {
   max-width: 1240px;
   width: 98%;
   margin: auto;
+}
+
+
+
+.about_form {
+	
+}
+
+.about_form{
+    padding-top: 25px;
+    background: url("http://1.rc.xiniu.com/rc/Contents/29122/images/LYbg.png?d=20170508094738839") no-repeat;
+    background-size:100% 100%;
+    height:550px;
+}
+
+.about_form .hrs{
+    width: 5%;
+    height: 3px;
+    margin: 20px auto;
+    background: #3884c0;
+}
+.about_form .about_form_submit{
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40%;
+    background: #3984c0;
+    color: #fff;
+    margin: auto;
+}
+
+
+
+
+.tishi {
+	width: 60%;
+}
+
+#tishi1 {
+	width:50%;
+}
+#tishi2 {
+	width:50%;
+}
+#tishi3 {
+	width:50%;
+}
+#tishi4 {
+	width:50%;
+}
+#tishi0 {
+	width:50%;
 }
